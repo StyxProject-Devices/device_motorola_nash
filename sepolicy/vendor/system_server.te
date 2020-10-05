@@ -8,3 +8,4 @@ binder_call(system_server,rild);
 get_prop(system_server, exported_camera_prop)
 get_prop(system_server, userspace_reboot_config_prop)
 get_prop(system_server, userspace_reboot_exported_prop)
+get_prop(platform_app, qemu_hw_mainkeys_prop)

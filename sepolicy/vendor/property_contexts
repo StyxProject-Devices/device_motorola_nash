@@ -30,3 +30,4 @@ ro.vendor.carrier          u:object_r:moto_boot_prop:s0
 ro.vendor.boot.cid         u:object_r:moto_boot_prop:s0
 ro.vendor.fsg-id           u:object_r:moto_boot_prop:s0
 ro.vendor.zygote           u:object_r:moto_boot_prop:s0
+qemu.hw.mainkeys           u:object_r:qemu_hw_mainkeys_prop:s0

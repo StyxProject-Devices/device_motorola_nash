@@ -224,6 +224,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ril.subscription.types=NV,RUIM \
     telephony.lteOnCdmaDevice=1
 
+# Software navegation keys
+PRODUCT_PROPERTY_OVERRIDES += \
+    qemu.hw.mainkeys=0
+
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.qti.sensors.dev_ori=false \
