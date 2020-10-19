@@ -26,11 +26,6 @@ vendor/lib/libeqservicebridge.so
 vendor/lib/motorola.hardware.audio.eqservice@1.0_vendor.so
 
 # Camera
--app/MotoSignatureApp/MotoSignatureApp.apk;PRESIGNED
-etc/permissions/privapp-permissions-com.motorola.camera2.xml
-etc/permissions/com.motorola.motosignature.xml
--framework/com.motorola.motosignature.jar
--priv-app/MotCamera2/MotCamera2.apk;PRESIGNED|260df16116b0e9f5144114454533bcda35f669e7
 vendor/bin/vl53l1_daemon
 vendor/lib64/libvl53l1_daemon.so
 etc/zaf/zaf_mot_s5k2l7sa.json:vendor/etc/zaf/zaf_mot_s5k2l7sa.json
@@ -389,7 +384,6 @@ etc/permissions/com.motorola.mod_v2.xml
 etc/permissions/com.motorola.moto.permissions.xml
 etc/permissions/privapp-permissions-com.motorola.modservice.xml|
 etc/permissions/privapp-permissions-com.motorola.projectormod.xml
-etc/sysconfig/hiddenapi-whitelist-com.motorola.camera2.xml
 etc/sysconfig/hiddenapi-whitelist-com.motorola.modservice.xml
 etc/sysconfig/hiddenapi-whitelist-com.motorola.projectormod.xml
 lib64/libmodhw.so
@@ -402,11 +396,6 @@ vendor/lib/libmodmanager.so
 vendor/lib64/libmodmanager.so
 vendor/lib64/com.motorola.mod@1.0_vendor.so
 vendor/lib/com.motorola.mod@1.0_vendor.so
-
-# Moto Permissions
-etc/permissions/com.motorola.moto.xml:vendor/etc/permissions/com.motorola.moto.xml
-etc/permissions/com.motorola.motodisplay.xml:vendor/etc/permissions/com.motorola.motodisplay.xml
-etc/permissions/com.motorola.camera2.xml:vendor/etc/permissions/com.motorola.camera2.xml
 
 # Perf
 vendor/etc/perf/perfboostsconfig.xml
