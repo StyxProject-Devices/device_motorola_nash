@@ -151,6 +151,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     MotCamera2
 
+# Moto TimeWeather
+PRODUCT_PACKAGES += \
+    TimeWeather
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1
