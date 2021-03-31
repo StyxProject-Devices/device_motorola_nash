@@ -108,8 +108,7 @@ PRODUCT_PACKAGES += \
     camera.device@3.2-impl \
     libbson.vendor \
     libxml2 \
-    libcamera_metadata_helper \
-    Snap
+    libcamera_metadata_helper
 
 # Codec2 modules
 PRODUCT_PACKAGES += \
