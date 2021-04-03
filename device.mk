@@ -17,6 +17,8 @@
 # Properties
 -include $(LOCAL_PATH)/properties.mk
 
+PRODUCT_BOARD_PLATFORM := msm8998
+
 # Bluetooth
 PRODUCT_SOONG_NAMESPACES += packages/apps/Bluetooth
 
