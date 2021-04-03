@@ -17,6 +17,7 @@
 # Properties
 -include $(LOCAL_PATH)/properties.mk
 
+TARGET_USES_QCOM_CHIPSET := true
 PRODUCT_BOARD_PLATFORM := msm8998
 
 # Bluetooth
