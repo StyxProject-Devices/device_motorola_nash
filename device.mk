@@ -17,6 +17,9 @@
 # Properties
 -include $(LOCAL_PATH)/properties.mk
 
+# Bluetooth
+PRODUCT_SOONG_NAMESPACES += packages/apps/Bluetooth
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
@@ -84,6 +87,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@1.0.vendor
 
 # Boot Animation
+TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
 
@@ -454,10 +458,6 @@ PRODUCT_PACKAGES += \
 # Touchscreen
 PRODUCT_PACKAGES += \
     libtinyxml2
-
-# Trust HAL
-PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
 
 # TWRP
 ifeq ($(WITH_TWRP),true)
