@@ -33,5 +33,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
         PRODUCT_NAME=nash
 
 # StyxOS
+STYX_BUILD_VARIANT := OFFICIAL
+
 PRODUCT_PRODUCT_PROPERTIES += \
     org.styxproject.maintainer=Deivid Ignacio
