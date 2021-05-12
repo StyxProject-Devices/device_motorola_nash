@@ -17,13 +17,11 @@ Display | 1440 x 2560 pixels, 5.5" P-OLED
 Rear Camera  | Dual 12 MP
 Front Camera | 5 MP
 
-**This tree has Moto Camera 2& Moto Live Wallpaper 3 included, for build do this:**
+**This tree has Moto Camera 2 included, for build do this:**
 
 `git clone https://gitlab.com/NemesisDevelopers/moto-camera/motorola_camera2_primary.git -b eleven-arm64 packages/apps/MotCamera2`
 
 `git clone https://gitlab.com/NemesisDevelopers/moto-camera/motorola_camera2_overlay.git -b eleven packages/apps/MotCamera2-overlay`
-
-`git clone https://gitlab.com/NemesisDevelopers/motorola/motorola_livewallpaper3.git -b eleven packages/apps/MotoLiveWallpaper3`
 
 `git clone https://gitlab.com/NemesisDevelopers/motorola/motorola_motosignatureapp.git -b eleven packages/apps/MotoSignatureApp`
 

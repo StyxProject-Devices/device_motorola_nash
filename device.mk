@@ -154,10 +154,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     MotCamera2
 
-# Moto Live Wallpaper
-PRODUCT_PACKAGES += \
-    MotoLiveWallpaper3
-
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1
