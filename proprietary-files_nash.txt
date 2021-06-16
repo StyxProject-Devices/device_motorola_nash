@@ -61,6 +61,7 @@ vendor/lib/lib_mot_led_calibration.so
 vendor/lib/libmot_afd.so
 vendor/lib/lib_motsensorlistener.so
 vendor/lib/libmcf-qc-fd-offline.so
+vendor/lib64/libmcf-qc-fd-offline.so
 
 # Camera - from Oreo
 vendor/lib/libchromaflash.so|cf85560822e04014b8950a1abae9c2843069101d
