@@ -32,6 +32,4 @@ qemu.hw.mainkeys           u:object_r:qemu_hw_mainkeys_prop:s0
 ro.boot.hwrev              u:object_r:hwrev_prop:s0
 ro.vendor.hw.hwrev         u:object_r:hwrev_prop:s0
 
-persist.vendor.dolby.loglevel   u:object_r:vendor_dolby_loglevel_prop:s0
-
 persist.vendor.camera.     u:object_r:camera_prop:s0

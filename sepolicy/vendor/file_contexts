@@ -53,7 +53,6 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.thermal@1\.1-service\.nash  u:object_r:hal_thermal_default_exec:s0
 /(vendor|system/vendor)/bin/init\.mmi\.(laser|usb)\.sh                        u:object_r:vendor_qti_init_shell_exec:s0
 /(vendor|system/vendor)/bin/init\.qcom\.power\.sh                             u:object_r:vendor_qti_init_shell_exec:s0
-/(vendor|system/vendor)/bin/hw/vendor\.dolby\.hardware\.dms@1\.0-service                     u:object_r:hal_dms_default_exec:s0
 /(vendor|system/vendor)/bin/perfd                                             u:object_r:perfd_exec:s0
 
 /sys/kernel/debug/rmt_storage(/.*)?                           u:object_r:debugfs_rmts:s0
